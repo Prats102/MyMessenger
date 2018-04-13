@@ -50,7 +50,7 @@
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
         -->
-             <!-- just like that  -->
+             <!-- just like that1  -->
     </dependencies>
     <properties>
         <jersey.version>2.16</jersey.version>
