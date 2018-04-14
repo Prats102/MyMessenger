@@ -1,6 +1,5 @@
 package com.pratyush.infi.Messenger;
 
-import javax.annotation.Generated;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -22,14 +21,5 @@ public class MyResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
         return "Got it!1";
-    }
-    
-    @GET
-    @Path("/abc")
-    @Produces(MediaType.TEXT_PLAIN)
-
-    public String getName()
-    {
-    	return "Pratyush";
     }
 }
