@@ -22,4 +22,12 @@ public class MyResource {
     public String getIt() {
         return "Got it!1";
     }
+    
+    @GET
+    @Path("/gender")
+
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getGender() {
+        return "Male";
+    }
 }
